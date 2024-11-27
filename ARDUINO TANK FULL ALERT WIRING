@@ -1,0 +1,17 @@
+Connections for the Tank Full Alerting System:
+
+
+Water Level Sensor:
+VCC pin: Connect to 5V on the Arduino.
+GND pin: Connect to GND on the Arduino.
+Signal pin (Analog output): Connect to A0 on the Arduino (this is the pin defined in the code).
+
+Buzzer:
+Positive pin (longer leg): Connect to pin 8 on the Arduino (or the pin you choose).
+Negative pin (shorter leg): Connect to GND on the Arduino.
+
+LED (Built-in on Pin 13):
+If you want to use the built-in LED on Pin 13, no external wiring is needed since it is already available on most Arduino boards (like the Arduino Uno).
+If you're using an external LED:
+Anode (longer leg): Connect to pin 13 on the Arduino.
+Cathode (shorter leg): Connect to GND via a 220Ω resistor (optional for current limiting).
